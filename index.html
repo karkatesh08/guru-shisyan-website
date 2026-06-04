@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Guru Shisyan Fusion Instrumental - Premier fusion instrumental music performances in Chidambaram, Tamil Nadu for weddings, corporate events, and cultural programs.">
+    <meta name="keywords" content="fusion instrumental, wedding music, corporate events, cultural programs, Chidambaram, Tamil Nadu, classical music, violinist">
+    <meta name="author" content="Guru Shisyan Fusion Instrumental">
+
+    <title>Guru Shisyan Fusion Instrumental | Chidambaram</title>
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+    <!-- Content Loader - MUST load before script.js -->
+    <script src="content-loader.js"></script>
+</head>
+
+<body>
+
+<!-- Preloader -->
+<div class="preloader" id="preloader">
+    <div class="loader">
+        <div class="music-notes">
+            <i class="fas fa-music"></i>
+            <i class="fas fa-music"></i>
+            <i class="fas fa-music"></i>
+        </div>
+        <p>Loading...</p>
+    </div>
+</div>
+
+<!-- Back to Top Button -->
+<button class="back-to-top" id="backToTop">
+    <i class="fas fa-arrow-up"></i>
+</button>
+
+<!-- Header & Navigation -->
+<header class="header" id="home">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#home" class="logo">
+                    <i class="fas fa-music"></i>
+                    <span>Guru Shisyan</span>
+                </a>
+
+                <ul class="nav-links" id="navLinks">
+                    <li><a href="#home" class="nav-link active">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#services" class="nav-link">Services</a></li>
+                    <li><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li><a href="#videos" class="nav-link">Videos</a></li>
+                    <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+                    <li><a href="#feedback" class="nav-link">Feedback</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+
+                <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    <span class="title-main" id="heroMainTitle">Guru Shisyan</span>
+                    <span class="title-sub" id="heroSubTitle">Fusion Instrumental</span>
+                </h1>
+
+                <p class="hero-description" id="heroDescription">
+                    Where Tradition Meets Innovation Through Music. Experience mesmerizing fusion instrumental
+                    performances blending Indian classical excellence with contemporary musical creativity.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-calendar-check"></i> Book an Event
+                    </a>
+                    <a href="#videos" class="btn btn-secondary">
+                        <i class="fas fa-play"></i> Watch Videos
+                    </a>
+                </div>
+
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-target="500">0</span>
+                        <span class="stat-label">Events</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="15">0</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-target="1000">0</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scroll Indicator -->
+    <div class="scroll-indicator">
+        <a href="#about">
+            <span></span>
+            <span></span>
+            <span></span>
+        </a>
+    </div>
+</header>
+
+<!-- Main Content -->
+<main>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="aboutSubtitle">About Us</span>
+                <h2 class="section-title" id="aboutTitle">Preserving Tradition, Creating Memories</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Discover the story behind our musical journey</p>
+            </div>
+
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="image-wrapper">
+                        <img id="aboutImage" src="https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=600" alt="Musical Performance">
+                        <div class="image-overlay">
+                            <div class="play-icon">
+                                <i class="fas fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="experience-badge">
+                        <i class="fas fa-award"></i>
+                        <span id="aboutBadge">15+ Years of Excellence</span>
+                    </div>
+                </div>
+
+                <div class="about-text">
+                    <h3 id="aboutHeading">Creating Musical Magic Since 2011</h3>
+                    <p id="aboutParagraph1">
+                        Guru Shisyan Fusion Instrumental is dedicated to creating memorable musical experiences
+                        through the fusion of Indian classical traditions and modern instrumental arrangements.
+                        Our performances are crafted for cultural programs, weddings, corporate events, temple
+                        festivals, and special celebrations.
+                    </p>
+                    <p id="aboutParagraph2">
+                        With a deep respect for classical music and a passion for innovation, we bring audiences
+                        a unique musical journey that connects generations through the universal language of music.
+                    </p>
+
+                    <div class="about-features" id="aboutFeatures">
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Expert Team</h4>
+                                <p>Classically trained musicians</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-music"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Unique Style</h4>
+                                <p>Fusion of traditional & modern</p>
+                            </div>
+                        </div>
+                        <div class="feature-item">
+                            <div class="feature-icon">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                            <div class="feature-text">
+                                <h4>Passion</h4>
+                                <p>Music from the heart</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#services" class="btn btn-outline">
+                        Explore Our Services <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="section services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="servicesSubtitle">Our Services</span>
+                <h2 class="section-title" id="servicesTitle">Musical Excellence for Every Occasion</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">From intimate gatherings to grand celebrations</p>
+            </div>
+
+            <div class="services-grid" id="servicesGrid">
+                <!-- Services will be loaded dynamically from content.json -->
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-guitar"></i>
+                        <div class="icon-bg"></div>
+                    </div>
+                    <h3>Fusion Instrumental Concerts</h3>
+                    <p>Dynamic live performances combining classical and contemporary styles for a mesmerizing experience.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> 2-3 Hour Performance</li>
+                        <li><i class="fas fa-check"></i> Custom Setlist</li>
+                        <li><i class="fas fa-check"></i> Sound Equipment Included</li>
+                    </ul>
+                    <a href="#contact" class="service-link">Book Now <i class="fas fa-arrow-right"></i></a>
+                </div>
+                <!-- More services will be loaded from JSON -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="section gallery" id="gallery">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="gallerySubtitle">Gallery</span>
+                <h2 class="section-title" id="galleryTitle">Capturing Musical Moments</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Glimpses from our performances</p>
+            </div>
+
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery images will be loaded dynamically from content.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section class="section videos" id="videos">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="videosSubtitle">Videos</span>
+                <h2 class="section-title" id="videosTitle">Watch Our Performances</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Experience the magic of our music</p>
+            </div>
+
+            <div class="videos-content">
+                <div class="main-video">
+                    <div class="video-wrapper">
+                        <iframe
+                            src="https://www.youtube.com/embed/FyvajouVPJo"
+                            title="Guru Shisyan Fusion Instrumental"
+                            allowfullscreen>
+                        </iframe>
+                    </div>
+                </div>
+
+                <div class="video-info">
+                    <h3>Subscribe to Our Channel</h3>
+                    <p>
+                        Stay updated with our latest performances, behind-the-scenes content, and exclusive
+                        video releases by subscribing to our YouTube channel.
+                    </p>
+                    <ul class="video-highlights" id="videoHighlights">
+                        <li><i class="fas fa-check-circle"></i> Live Performance Recordings</li>
+                        <li><i class="fas fa-check-circle"></i> Studio Sessions</li>
+                        <li><i class="fas fa-check-circle"></i> Tutorial Content</li>
+                        <li><i class="fas fa-check-circle"></i> Behind the Scenes</li>
+                    </ul>
+
+                    <a href="https://youtube.com/@sksviolinist" target="_blank" id="youtubeChannel" class="btn btn-primary">
+                        <i class="fab fa-youtube"></i> Visit YouTube Channel
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="testimonialsSubtitle">Testimonials</span>
+                <h2 class="section-title" id="testimonialsTitle">What Our Clients Say</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Feedback from our valued customers</p>
+            </div>
+
+            <div class="testimonials-grid" id="testimonialsGrid">
+                <!-- Testimonials will be loaded dynamically from content.json -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Feedback Section -->
+    <section class="section feedback" id="feedback">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="feedbackSubtitle">Feedback</span>
+                <h2 class="section-title" id="feedbackTitle">Share Your Experience</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">We value your opinion</p>
+            </div>
+
+            <div class="feedback-content">
+                <div class="feedback-info">
+                    <h3 id="feedbackInfoTitle">Your Experience Matters</h3>
+                    <p id="feedbackInfoText1">
+                        Have you attended our performance or booked us for an event? We would love to
+                        hear your feedback and suggestions.
+                    </p>
+                    <p id="feedbackInfoText2">
+                        Your reviews help us improve and also assist other customers in making informed decisions.
+                    </p>
+
+                    <div class="feedback-benefits" id="feedbackBenefits">
+                        <div class="benefit-item">
+                            <i class="fas fa-bolt"></i>
+                            <span>Quick & Easy</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Your Privacy Matters</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-chart-line"></i>
+                            <span>Helps Us Improve</span>
+                        </div>
+                        <div class="benefit-item">
+                            <i class="fas fa-heart"></i>
+                            <span>Supports Our Work</span>
+                        </div>
+                    </div>
+
+                    <div class="feedback-contact">
+                        <p>Prefer to talk directly?</p>
+                        <a href="tel:+919994080330" class="btn btn-outline">
+                            <i class="fas fa-phone"></i> Call Us
+                        </a>
+                    </div>
+                </div>
+
+                <div class="feedback-form-wrapper">
+                    <form class="feedback-form" id="feedbackForm">
+                        <h3>Submit Your Feedback</h3>
+
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i> Your Name *
+                            </label>
+                            <input
+                                type="text"
+                                id="name"
+                                name="name"
+                                placeholder="Enter your full name"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i> Email Address *
+                            </label>
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                placeholder="Enter your email address"
+                                required
+                            >
+                        </div>
+
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">
+                                    <i class="fas fa-phone"></i> Phone Number
+                                </label>
+                                <input
+                                    type="tel"
+                                    id="phone"
+                                    name="phone"
+                                    placeholder="Your phone number"
+                                >
+                            </div>
+
+                            <div class="form-group">
+                                <label for="event">
+                                    <i class="fas fa-calendar"></i> Event Type
+                                </label>
+                                <select id="event" name="event">
+                                    <option value="">Select event type</option>
+                                    <option value="wedding">Wedding Event</option>
+                                    <option value="corporate">Corporate Event</option>
+                                    <option value="cultural">Cultural Program</option>
+                                    <option value="temple">Temple Function</option>
+                                    <option value="concert">Concert</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label>
+                                <i class="fas fa-star"></i> Rate Your Experience *
+                            </label>
+                            <div class="rating-wrapper">
+                                <div class="rating-stars" id="ratingStars">
+                                    <button type="button" class="star-btn" data-rating="5">
+                                        <i class="far fa-star"></i>
+                                    </button>
+                                    <button type="button" class="star-btn" data-rating="4">
+                                        <i class="far fa-star"></i>
+                                    </button>
+                                    <button type="button" class="star-btn" data-rating="3">
+                                        <i class="far fa-star"></i>
+                                    </button>
+                                    <button type="button" class="star-btn" data-rating="2">
+                                        <i class="far fa-star"></i>
+                                    </button>
+                                    <button type="button" class="star-btn" data-rating="1">
+                                        <i class="far fa-star"></i>
+                                    </button>
+                                </div>
+                                <input type="hidden" id="rating" name="rating" value="" required>
+                                <span class="rating-text">Select a rating</span>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="title">
+                                <i class="fas fa-heading"></i> Review Title
+                            </label>
+                            <input
+                                type="text"
+                                id="title"
+                                name="title"
+                                placeholder="Summarize your experience"
+                            >
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i> Your Feedback *
+                            </label>
+                            <textarea
+                                id="message"
+                                name="message"
+                                rows="5"
+                                placeholder="Share your detailed experience with us..."
+                                required
+                            ></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="publish" value="yes">
+                                <span>I agree to publish this review on the website</span>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i> Submit Feedback
+                        </button>
+
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-subtitle" id="contactSubtitle">Contact</span>
+                <h2 class="section-title" id="contactTitle">Get In Touch</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">We'd love to hear from you</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <h3>Location</h3>
+                        <p id="contactLocation">Chidambaram</p>
+                        <p>Tamil Nadu, India</p>
+                        <a href="https://maps.google.com/?q=Chidambaram,TamilNadu,India" target="_blank" id="mapLink" class="contact-link">
+                            Get Directions <i class="fas fa-external-link-alt"></i>
+                        </a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <h3>Phone</h3>
+                        <div id="contactPhones">
+                            <a href="tel:+919994080330" class="contact-link">+91 99940 80330</a>
+                            <a href="tel:+919363332168" class="contact-link">+91 93633 32168</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <a href="mailto:supukaviolin@gmail.com" id="emailLink" class="contact-link" id="contactEmail">supukaviolin@gmail.com</a>
+                    </div>
+
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <h3>Working Hours</h3>
+                        <p id="workingHoursWeekdays">Mon - Sat: 9:00 AM - 8:00 PM</p>
+                        <p id="workingHoursSunday">Sunday: By Appointment</p>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="https://youtube.com/@sksviolinist" target="_blank" id="socialYoutube" class="social-link youtube">
+                            <i class="fab fa-youtube"></i>
+                            <span>YouTube</span>
+                        </a>
+                        <a href="https://instagram.com/karkatesh_violin" target="_blank" id="socialInstagram" class="social-link instagram">
+                            <i class="fab fa-instagram"></i>
+                            <span>Instagram</span>
+                        </a>
+                        <a href="https://www.facebook.com/sundarapandianviolin" target="_blank" id="socialFacebook" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                            <span>Facebook</span>
+                        </a>
+                        <a href="https://wa.me/919363332168" target="_blank" id="socialWhatsapp" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            <span>WhatsApp</span>
+                        </a>
+                    </div>
+
+                    <div class="quick-action">
+                        <h3>Quick Booking</h3>
+                        <p>Ready to book an event?</p>
+                        <a href="tel:+919994080330" class="btn btn-primary">
+                            <i class="fas fa-phone"></i> Call Now
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="footer-top">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <h3>Guru Shisyan</h3>
+                    <p class="footer-tagline" id="footerTagline">Fusion Instrumental</p>
+                    <p class="footer-description" id="footerDescription">
+                        Where tradition meets innovation through the universal language of music.
+                        Creating memorable experiences for over 15 years.
+                    </p>
+                    <div class="footer-social">
+                        <a href="https://youtube.com/@sksviolinist" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a href="https://instagram.com/karkatesh_violin" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.facebook.com/sundarapandianviolin" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://wa.me/919363332168" target="_blank">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul id="footerQuickLinks">
+                        <li><a href="#home"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="#gallery"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="#videos"><i class="fas fa-chevron-right"></i> Videos</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h3>Our Services</h3>
+                    <ul id="footerServiceLinks">
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Wedding Events</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Corporate Events</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Cultural Programs</a></li>
+                        <li><a href="#services"><i class="fas fa-chevron-right"></i> Temple Functions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h3>Contact Info</h3>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Chidambaram, Tamil Nadu, India</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:+919994080330">+91 99940 80330</a>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:supukaviolin@gmail.com">supukaviolin@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="footer-bottom-content">
+                <p id="footerCopyright">© 2026 Guru Shisyan Fusion Instrumental. All Rights Reserved.</p>
+                <p id="footerDesigned">Designed with <i class="fas fa-heart"></i> in Chidambaram</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- Custom JavaScript -->
+<script src="script.js"></script>
+
+</body>
+</html>
