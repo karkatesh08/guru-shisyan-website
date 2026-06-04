@@ -1,0 +1,255 @@
+{
+  "website": {
+    "title": "Guru Shisyan Fusion Instrumental",
+    "tagline": "Where Tradition Meets Innovation Through Music",
+    "description": "Experience mesmerizing fusion instrumental performances blending Indian classical excellence with contemporary musical creativity."
+  },
+
+  "hero": {
+    "mainTitle": "Guru Shisyan",
+    "subTitle": "Fusion Instrumental",
+    "description": "Where Tradition Meets Innovation Through Music. Experience mesmerizing fusion instrumental performances blending Indian classical excellence with contemporary musical creativity.",
+    "backgroundImage": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=1920",
+    "stats": {
+      "events": "500",
+      "years": "15",
+      "clients": "1000"
+    }
+  },
+
+  "about": {
+    "subtitle": "About Us",
+    "title": "Preserving Tradition, Creating Memories",
+    "description": "Discover the story behind our musical journey",
+    "heading": "Creating Musical Magic Since 2011",
+    "paragraph1": "Guru Shisyan Fusion Instrumental is dedicated to creating memorable musical experiences through the fusion of Indian classical traditions and modern instrumental arrangements. Our performances are crafted for cultural programs, weddings, corporate events, temple festivals, and special celebrations.",
+    "paragraph2": "With a deep respect for classical music and a passion for innovation, we bring audiences a unique musical journey that connects generations through the universal language of music.",
+    "image": "https://images.unsplash.com/photo-1514320291840-2e0a9bf2a9ae?w=600",
+    "badgeText": "15+ Years of Excellence",
+    "features": [
+      {
+        "icon": "fa-users",
+        "title": "Expert Team",
+        "description": "Classically trained musicians"
+      },
+      {
+        "icon": "fa-music",
+        "title": "Unique Style",
+        "description": "Fusion of traditional & modern"
+      },
+      {
+        "icon": "fa-heart",
+        "title": "Passion",
+        "description": "Music from the heart"
+      }
+    ]
+  },
+
+  "services": {
+    "subtitle": "Our Services",
+    "title": "Musical Excellence for Every Occasion",
+    "description": "From intimate gatherings to grand celebrations",
+    "items": [
+      {
+        "icon": "fa-guitar",
+        "title": "Fusion Instrumental Concerts",
+        "description": "Dynamic live performances combining classical and contemporary styles for a mesmerizing experience.",
+        "features": ["2-3 Hour Performance", "Custom Setlist", "Sound Equipment Included"]
+      },
+      {
+        "icon": "fa-heart",
+        "title": "Wedding Events",
+        "description": "Elegant instrumental music for weddings, receptions, sangeet, and engagement ceremonies.",
+        "features": ["Processional Music", "Reception Entertainment", "Special Requests Welcome"],
+        "featured": true
+      },
+      {
+        "icon": "fa-theater-masks",
+        "title": "Cultural Programs",
+        "description": "Traditional and fusion performances for cultural festivals, school events, and celebrations.",
+        "features": ["Traditional & Fusion", "Audience Engagement", "Flexible Duration"]
+      },
+      {
+        "icon": "fa-building",
+        "title": "Corporate Events",
+        "description": "Professional musical entertainment for corporate gatherings, conferences, and annual meets.",
+        "features": ["Professional Setup", "Brand Integration", "Corporate Packages"]
+      },
+      {
+        "icon": "fa-om",
+        "title": "Temple Functions",
+        "description": "Devotional and spiritual instrumental performances for temple festivals and religious events.",
+        "features": ["Devotional Classics", "Festival Special", "Traditional Instruments"]
+      },
+      {
+        "icon": "fa-star",
+        "title": "Custom Music Shows",
+        "description": "Personalized musical experiences tailored to your specific event requirements and preferences.",
+        "features": ["Fully Customized", "Any Genre", "Theme Integration"]
+      }
+    ]
+  },
+
+  "gallery": {
+    "subtitle": "Gallery",
+    "title": "Capturing Musical Moments",
+    "description": "Glimpses from our performances",
+    "images": [
+      {
+        "url": "images/insimg1.jpeg",
+        "title": "Performance"
+      },
+      {
+        "url": "images/insimg2.jpeg",
+        "title": "Concert"
+      },
+      {
+        "url": "images/insimg3.jpeg",
+        "title": "Wedding Event"
+      },
+      {
+        "url": "images/insimg4.jpeg",
+        "title": "Temple Function"
+      },
+      {
+        "url": "images/insimg5.jpeg",
+        "title": "Studio Session"
+      },
+      {
+        "url": "images/insimg6.jpeg",
+        "title": "Team Photo"
+      }
+    ]
+  },
+
+  "videos": {
+    "subtitle": "Videos",
+    "title": "Watch Our Performances",
+    "description": "Experience the magic of our music",
+    "channelName": "sksviolinist",
+    "channelUrl": "https://youtube.com/@sksviolinist",
+    "videoId": "FyvajouVPJo",
+    "highlights": [
+      "Live Performance Recordings",
+      "Studio Sessions",
+      "Tutorial Content",
+      "Behind the Scenes"
+    ]
+  },
+
+  "testimonials": {
+    "subtitle": "Testimonials",
+    "title": "What Our Clients Say",
+    "description": "Feedback from our valued customers",
+    "items": [
+      {
+        "name": "Ramesh Kumar",
+        "initials": "RK",
+        "location": "Wedding Client, Chennai",
+        "rating": 5,
+        "text": "Absolutely mesmerizing performance! The fusion of classical and contemporary music created the perfect ambiance for our wedding. Guests couldn't stop talking about it!"
+      },
+      {
+        "name": "Priya Sharma",
+        "initials": "PS",
+        "location": "Event Coordinator, Bangalore",
+        "rating": 5,
+        "text": "Professional, punctual, and incredibly talented. Their performance at our corporate event was the highlight of the evening. Highly recommend for any event!"
+      },
+      {
+        "name": "V. Narayanan",
+        "initials": "VN",
+        "location": "Temple Trustee, Chidambaram",
+        "rating": 5,
+        "text": "The spiritual essence they brought to our temple festival was divine. Their instrumental fusion created a heavenly atmosphere that touched everyone's hearts."
+      },
+      {
+        "name": "M. Lakshmi",
+        "initials": "ML",
+        "location": "School Principal, Kumbakonam",
+        "rating": 4,
+        "text": "We booked them for our school annual day. The students and parents were thoroughly impressed. A perfect blend of traditional and modern music!"
+      },
+      {
+        "name": "Anand Rajan",
+        "initials": "AR",
+        "location": "Private Event, Pondicherry",
+        "rating": 5,
+        "text": "Exceptional talent and wonderful artists to work with. They accommodated all our song requests and delivered beyond expectations at our daughter's reception."
+      },
+      {
+        "name": "S. Kavitha",
+        "initials": "SK",
+        "location": "Cultural Organizer, Thanjavur",
+        "rating": 5,
+        "text": "The perfect choice for our cultural festival. Their performance beautifully showcased the richness of Indian classical music with a modern touch. Truly outstanding!"
+      }
+    ]
+  },
+
+  "feedback": {
+    "subtitle": "Feedback",
+    "title": "Share Your Experience",
+    "description": "We value your opinion",
+    "infoTitle": "Your Experience Matters",
+    "infoText1": "Have you attended our performance or booked us for an event? We would love to hear your feedback and suggestions.",
+    "infoText2": "Your reviews help us improve and also assist other customers in making informed decisions.",
+    "benefits": [
+      "Quick & Easy",
+      "Your Privacy Matters",
+      "Helps Us Improve",
+      "Supports Our Work"
+    ]
+  },
+
+  "contact": {
+    "subtitle": "Contact",
+    "title": "Get In Touch",
+    "description": "We'd love to hear from you",
+    "location": "Chidambaram, Tamil Nadu, India",
+    "mapUrl": "https://maps.google.com/?q=Chidambaram,TamilNadu,India",
+    "phones": [
+      "+91 93633 32168",
+      "+91 99940 80330"
+    ],
+    "email": "supukaviolin@gmail.com",
+    "workingHours": {
+      "weekdays": "Mon - Sat: 9:00 AM - 8:00 PM",
+      "sunday": "Sunday: By Appointment"
+    }
+  },
+
+  "social": {
+    "youtube": "https://youtube.com/@sksviolinist",
+    "instagram": "https://instagram.com/karkatesh_violin",
+    "facebook": "https://www.facebook.com/sundarapandianviolin",
+    "whatsapp": "https://wa.me/919363332168"
+  },
+
+  "footer": {
+    "tagline": "Fusion Instrumental",
+    "description": "Where tradition meets innovation through the universal language of music. Creating memorable experiences for over 15 years.",
+    "quickLinks": [
+      { "text": "Home", "url": "#home" },
+      { "text": "About Us", "url": "#about" },
+      { "text": "Services", "url": "#services" },
+      { "text": "Gallery", "url": "#gallery" },
+      { "text": "Videos", "url": "#videos" }
+    ],
+    "serviceLinks": [
+      { "text": "Wedding Events", "url": "#services" },
+      { "text": "Corporate Events", "url": "#services" },
+      { "text": "Cultural Programs", "url": "#services" },
+      { "text": "Temple Functions", "url": "#services" },
+      { "text": "Concerts", "url": "#services" }
+    ],
+    "copyright": "© 2026 Guru Shisyan Fusion Instrumental. All Rights Reserved.",
+    "designed": "Designed with ♥ in Chidambaram"
+  },
+
+  "settings": {
+    "theme": "traditional",
+    "language": "en",
+    "animationEnabled": true
+  }
+}
